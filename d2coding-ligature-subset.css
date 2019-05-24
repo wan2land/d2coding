@@ -4,9 +4,9 @@
   font-weight: 700;
   font-display: swap;
   src: local('D2Coding ligature Bold'),
-    url('dist/d2coding-ligature-subset-bold.woff2') format('woff2'),
-    url('dist/d2coding-ligature-subset-bold.woff') format('woff'),
-    url('dist/d2coding-ligature-subset-bold.ttf') format('truetype');
+    url('fonts/d2coding-ligature-bold-subset.woff2') format('woff2'),
+    url('fonts/d2coding-ligature-bold-subset.woff') format('woff'),
+    url('fonts/d2coding-ligature-bold-subset.ttf') format('truetype');
 }
 
 @font-face {
@@ -15,7 +15,7 @@
   font-weight: 400;
   font-display: swap;
   src: local('D2Coding ligature Regular'),
-    url('dist/d2coding-ligature-subset.woff2') format('woff2'),
-    url('dist/d2coding-ligature-subset.woff') format('woff'),
-    url('dist/d2coding-ligature-subset.ttf') format('truetype');
+    url('fonts/d2coding-ligature-subset.woff2') format('woff2'),
+    url('fonts/d2coding-ligature-subset.woff') format('woff'),
+    url('fonts/d2coding-ligature-subset.ttf') format('truetype');
 }
