@@ -19,6 +19,32 @@ npm i d2coding
 - [d2coding-ligature-full.css](d2coding-ligature-full.css): D2Coding Ligature 한글 전체
 - [d2coding-ligature-subset.css](d2coding-ligature-subset.css): D2Coding Ligature 한글 서브셋
 
+원하는 설정을 고른뒤, CSS에 넣거나,
+
+```css
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css");
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-subset.css");
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-full.css");
+@import url("//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css");
+```
+
+HTML 최상단에 넣어주시면 됩니다.
+
+```html
+<link href="//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-full.css" rel="stylesheet" />
+<link href="//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-subset.css" rel="stylesheet" />
+<link href="//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-full.css" rel="stylesheet" />
+<link href="//cdn.jsdelivr.net/gh/wan2land/d2coding/d2coding-ligature-subset.css" rel="stylesheet" />
+```
+
+CSS를 통해 폰트를 설정해주시면 됩니다.
+
+```css
+body {
+  font-family: 'D2Coding', monospace;
+}
+```
+
 ## 빌드
 
 소스를 빌드하려면 다음 라이브러리가 필요합니다. 전부 `pip`를 통해 설치가능합니다.
