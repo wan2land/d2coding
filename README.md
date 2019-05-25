@@ -62,7 +62,7 @@ make build
 ## 참고
 
 - [Github - naver/d2codingfont](https://github.com/naver/d2codingfont)
-- [웹폰트의 사용과 최적화, 이상진](https://medium.com/@hyunalee419/feconf-korea-%EC%9B%B9%ED%8F%B0%ED%8A%B8%EC%9D%98-%EC%82%AC%EC%9A%A9%EA%B3%BC-%EC%B5%9C%EC%A0%81%ED%99%94-%EC%9D%B4%EC%83%81%EC%A7%84-58c210fa77c4)
+- [웹폰트의 사용과 최적화, 이상진](https://slides.com/sangjinlee/webconf-2018-5)
 - [웹폰트 경량화 - 폰트툴즈의 pyftsubset을 사용한 폰트 서브셋 만들기](https://www.44bits.io/ko/post/optimization_webfont_with_pyftsubnet)
 
 ## 라이센스 
